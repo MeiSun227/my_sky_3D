@@ -15,17 +15,16 @@ const OverLay = () => {
                     <div className={`outro ${end ? "outro--appear" : ""}`}>
                         <p className="outro__text">You can view more about me via </p>
                         <div className='flex-container'>
-                        <div>
-                            <a href='https://github.com/MeiSun227/'>
-
-                            <FaLinkedin color='white' size='2em' />
-                            </a>
-                        </div>
-                        <div>
-                            <a href='https://www.linkedin.com/in/mei-sun-lee-3565907b/'>
-                                <FaGithubSquare color='white' size='2em' />
-                            </a>
-                        </div>
+                            <div>
+                                <a href='https://github.com/MeiSun227/'>
+                                    <FaGithubSquare color='white' size='2em' />
+                                </a>
+                            </div>
+                            <div>
+                                <a href='https://www.linkedin.com/in/mei-sun-lee-3565907b/'>
+                                    <FaLinkedin color='white' size='2em' />
+                                </a>
+                            </div>
                         </div>
                     </div>
 
